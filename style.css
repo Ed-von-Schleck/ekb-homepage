@@ -53,6 +53,18 @@ header #companyName{
     text-shadow: 1px 1px 10px #CCC;
 }
 
+.red {
+    color: #FF4900;
+}
+
+.green {
+    color: #00CC00;
+}
+
+.blue {
+    color: #0B61A4;
+}
+
 a.linkMed {
     color: #00CC00;
 }
