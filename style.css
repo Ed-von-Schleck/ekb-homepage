@@ -39,7 +39,6 @@ header {
 }
 
 header ul, header #companyNameDiv {
-    height: 2em;
     line-height: 2em;
 }
 
@@ -48,7 +47,7 @@ header ul {
     margin-left: 19em;
     */
     font-size: large;
-
+    overflow: auto;
     border-radius: 0.5em;
     box-shadow: 1px 1px 5px #AAAAAA;
     border: 1px solid black;
@@ -129,8 +128,8 @@ header #companyName {
 
 header #slogan {
     font-size: 0.47em;
-    position: absolute;
-    top: 1.8em;
+    position: relative;
+    top: -1em;
 }
 
 header a {
